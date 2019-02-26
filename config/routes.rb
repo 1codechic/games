@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   # end
   get '/fortunes' => 'api/example_pages#fortune_teller'
   get '/lotto' => 'api/example_pages#lottery'
+  get '/visitors' => 'api/example_pages#page_counter'
 end

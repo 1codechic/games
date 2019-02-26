@@ -22,6 +22,13 @@ class Api::ExamplePagesController < ApplicationController
     #show the numbers
     render 'my_lottery.json.jbuilder'
   end
+
+  def page_counter
+    @page_count = 0
+    @page_count += 1
+    #show the count
+    render 'page_count.json.jbuilder'
+  end
   
 
   

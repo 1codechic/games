@@ -1,2 +1,2 @@
-json.message 'hello'
+json.message 'in fortune teller'
 json.fortune @fortune

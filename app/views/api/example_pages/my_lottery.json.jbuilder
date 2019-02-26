@@ -1,2 +1,2 @@
 json.message 'in my lottery'
-json.winnin_numbers @numbers
+json.winning_numbers @numbers
